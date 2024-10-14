@@ -38,20 +38,6 @@ export default function Navbar() {
           </Link>
           
         </div>
-        <div
-          className={`${
-            isOpen ? 'block' : 'hidden'
-          } md:flex md:items-center w-full md:w-auto`}
-        >
-          <ul className="md:flex md:space-x-8 mt-4 md:mt-0">
-            <li>
-              <Link href="/about" className="block py-2 px-4 rounded-lg" style={{ transition: 'background-color 0.3s' }} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#416a91'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = ''}>About</Link>
-            </li>
-            <li>
-              <Link href="/projects" className="block py-2 px-4 rounded-lg" style={{ transition: 'background-color 0.3s' }} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#416a91'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = ''}>Projects</Link>
-            </li>
-          </ul>
-        </div>
         <div className="md:flex items-center space-x-4">
           <button
             onClick={toggleTheme}
@@ -76,6 +62,27 @@ export default function Navbar() {
             )}
           </button>
         </div>
+        <button id="clear-button"
+          className="bg-red-500 text-white px-4 py-2 rounded-lg ml-auto hidden"
+          onClick={clearAnimations}
+        >
+          Clear
+        </button>
+        <div
+          className={`${
+            isOpen ? 'block' : 'hidden'
+          } md:flex md:items-center w-full md:w-auto`}
+        >
+          <ul className="md:flex md:space-x-8 mt-4 md:mt-0">
+            <li>
+              <Link href="/about" className="block py-2 px-4 rounded-lg" style={{ transition: 'background-color 0.3s' }} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#416a91'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = ''}>About</Link>
+            </li>
+            <li>
+              <Link href="/projects" className="block py-2 px-4 rounded-lg" style={{ transition: 'background-color 0.3s' }} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#416a91'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = ''}>Projects</Link>
+            </li>
+          </ul>
+        </div>
+       
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="text-white focus:outline-none">
             <svg
@@ -103,12 +110,6 @@ export default function Navbar() {
             </svg>
           </button>
       </div>
-      <button id="clear-button"
-          className="bg-red-500 text-white px-4 py-2 rounded-lg ml-auto hidden"
-          onClick={clearAnimations}
-        >
-          Clear
-        </button>
       </div>
     </nav>
   );
