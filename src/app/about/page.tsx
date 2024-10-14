@@ -9,7 +9,7 @@ const AboutMe = () => {
         </div>
         <div className="description-section text-left text-lg max-w-2xl">
         <p> 
-          Hi, I\'m <span className="font-bold">Abel</span>, a <span className="font-bold">physics student</span> at NTNU with a passion for thermodynamics, fluid dynamics, and numerical physics. {' '}
+          Hi, I&#39;m <span className="font-bold">Abel</span>, a <span className="font-bold">physics student</span> at NTNU with a passion for thermodynamics, fluid dynamics, and numerical physics. {' '}
           In addition to my studies, I serve as the <span className="font-bold">Chief Technical Officer</span> at {' '}
           <a href="https://propulse.no" className="underline hover:text-blue-700">Propulse</a>.{' '} 
           I enjoy learning through hands-on projects that challenge me to think differently and explore new perspectives.{' '} 
@@ -34,10 +34,10 @@ const AboutMe = () => {
         </p>
         <br />
         <p>
-          When I\'m not busy trying to learn new things, I enjoy playing video games, sailing, reading books, and building legos. {' '}
+          When I&#39;m not busy trying to learn new things, I enjoy playing video games, sailing, reading books, and building legos. {' '}
           Currently, i am playing <span className='font-bold italic'>Baldurs Gate 3</span>, and reading <span className="font-bold italic">Lord of the Rings</span>. {' '}
           My proudest lego build is the <span className="font-bold italic">Titanic</span> set, but the lego cities I used to have in my room still hold a special place in my heart. {' '}
-          I own a Laser dinghy that i haven\'t sailed in a while, but i hope to get back on the water soon. {' '}
+          I own a Laser dinghy that i haven&#39;t sailed in a while, but i hope to get back on the water soon. {' '}
         </p>
         <br />
         <p>

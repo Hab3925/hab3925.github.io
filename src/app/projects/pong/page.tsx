@@ -33,7 +33,7 @@ export default function ProjectPage() {
             <p>
               I made pong on my laptop while on christmas break with my grandparents in 2019. {' '}
               This meant i had a lot of free time, and got to do a lot of work on the game and finish it in a week. {' '}
-              The game is a simple 2D game made in Unity where two players control one paddle each with the \"W\" and \"S\" key, and up and down keys, to try to hit the ball past the other player. {' '}
+              The game is a simple 2D game made in Unity where two players control one paddle each with the &#34;W&#34; and &#34;S&#34; key, and up and down keys, to try to hit the ball past the other player. {' '}
               First to 10 points wins. The most challenging part of the project was getting the physics of the ball right, making sure it bounced off the walls and giving the players athority over the trajectory of the ball. {' '}
               I playtested a lot with my brother to tune the speed of the paddles and the movement of the ball to make the game fun and challenging. {' '}
               During playtests we found that the game was most fun when the ball moved fast and the paddles were slow, making the game a test of reflexes and the ability of the player to predict the trajectory of the ball. {' '}
@@ -47,10 +47,10 @@ export default function ProjectPage() {
             </p>
             <h2>Play the game!</h2>
             <p> 
-              I managed to dig up the files and build the game and embed it below :) The game has two players, player 1 is controlled with \"W\" and \"S\" while player 2 is controlled with the up and down keys. First to 10 points wins! {' '}
+              I managed to dig up the files and build the game and embed it below :) The game has two players, player 1 is controlled with &#34;W&#34; and &#34;S&#34; while player 2 is controlled with the up and down keys. First to 10 points wins! {' '}
               I recommend playing against someone competietive 🏓
             </p>
-            <p>(It probably doesn\'t work on mobile, but it was enough work making it work on PC so sorry about that)</p>
+            <p>(It probably doesn&#39;t work on mobile, but it was enough work making it work on PC so sorry about that)</p>
           
             <div className="flex justify-center items-center h-screen overflow-hidden">
               <div className="relative w-full max-w-3xl" style={{ paddingTop: '56.25%' }}>

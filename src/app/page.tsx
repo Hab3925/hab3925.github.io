@@ -59,7 +59,7 @@ export default function Home() {
           Abel Gangeskar Horneland
         </h1>
         <p className="text-lg text-center sm:text-left max-w-2xl">
-          I\'m a{' '}
+          I&#39;m a{' '}
           <span>
             <span
               className="font-bold"
@@ -90,7 +90,7 @@ export default function Home() {
             </span>
           </span>{' '}
           who loves learning, sailing and solving challenging problems. {' '}
-          This website is a collection of projects I\'ve worked on, and a place to share my thoughts and ideas.
+          This website is a collection of projects I&#39;ve worked on, and a place to share my thoughts and ideas.
         </p>
         <Skills />
       </main>
