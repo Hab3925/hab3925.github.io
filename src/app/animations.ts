@@ -21,8 +21,8 @@ export const launchRocket = () => {
     let positionY = 0;
     let positionX = randomStartX;
     let velocityY = 1;
-    let velocityX = 1.5;
-    let accelerationY = 0.1;
+    const velocityX = 1.5;
+    const accelerationY = 0.1;
   
     let smokeCounter = 0;
     const smokeRate = 5;
@@ -94,11 +94,11 @@ export const launchRocket = () => {
   
     let positionY = 0;
     let velocityY = 0;
-    let gravity = 0.5;
-    let damping = 0.7;
+    const gravity = 0.5;
+    const damping = 0.7;
     let bounceCount = 0;
-    let maxBounces = 6;
-    let floorHeight = window.innerHeight - 50;
+    const maxBounces = 6;
+    const floorHeight = window.innerHeight - 50;
   
     let positionX = window.innerWidth * 0.1;
     let velocityX = 6;
@@ -138,7 +138,7 @@ export const launchRocket = () => {
     const maxBooks = 150; // Maximum number of books allowed on the screen
     const footer = document.querySelector('footer');
 
-    let existingBooks = document.querySelectorAll('.book');
+    const existingBooks = document.querySelectorAll('.book');
     if (existingBooks.length >= maxBooks) {
       // Remove oldest books if maxBooks limit is reached
       const booksToRemove = existingBooks.length + numBooks - maxBooks;
@@ -199,7 +199,7 @@ export const tinkerGears = () => {
   const numGears = 3; // Number of gears to spawn per click
   const maxGears = 15; // Maximum number of gears allowed on the screen
 
-  let existingGears = document.querySelectorAll('.gear');
+  const existingGears = document.querySelectorAll('.gear');
   if (existingGears.length >= maxGears) {
     // Remove oldest gears if maxGears limit is reached
     const gearsToRemove = existingGears.length + numGears - maxGears;
