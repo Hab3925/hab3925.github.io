@@ -18,7 +18,7 @@ const AboutMe = () => {
         <br />
         <p> 
           I have tried my hand at many different things, from learning <span className="font-bold">game development</span> to <span className="font-bold">CAD software</span> for <span className='font-bold'>3D-printing</span> to <span className='font-bold'>PCB design</span>.
-          With every project i take on, I try to learn as many new skills as possible, and to get better at the ones i already have. {' '}
+          With every project I take on, I try to learn as many new skills as possible, and to get better at the ones I already have. {' '}
           My favorite aspect of this journey is applying my understanding to simulate and model physical systems, using those models to solve real-world problems. {' '}
         </p>
         <br />
@@ -28,16 +28,16 @@ const AboutMe = () => {
         </p>
         <br />
         <p>
-          Ever since the Falcon Heavy landed both boosters at the same time in 2018, i have been fascinated by the engineering challenges of rocket science. {' '}
-          To get to work with rockets in Propulse and learn so much about things i used to think were impossible has been a dream come true. {' '}
+          Ever since the Falcon Heavy landed both boosters at the same time in 2018, I have been fascinated by the engineering challenges of rocket science. {' '}
+          To get to work with rockets in Propulse and learn so much about things I used to think were impossible has been a dream come true. {' '}
           I hope to work with something similar in the future, and I hope that Propulse can inspire the Norwegian space industry to develop civil rocket technology in the future. {' '}
         </p>
         <br />
         <p>
           When I&#39;m not busy trying to learn new things, I enjoy playing video games, sailing, reading books, and building legos. {' '}
-          Currently, i am playing <span className='font-bold italic'>Baldurs Gate 3</span>, and reading <span className="font-bold italic">Lord of the Rings</span>. {' '}
+          Currently, I am playing <span className='font-bold italic'>Baldurs Gate 3</span>, and reading <span className="font-bold italic">Lord of the Rings</span>. {' '}
           My proudest lego build is the <span className="font-bold italic">Titanic</span> set, but the lego cities I used to have in my room still hold a special place in my heart. {' '}
-          I own a Laser dinghy that i haven&#39;t sailed in a while, but i hope to get back on the water soon. {' '}
+          I own a Laser dinghy that I haven&#39;t sailed in a while, but I hope to get back on the water soon. {' '}
         </p>
         <br />
         <p>
