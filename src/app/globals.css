@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background-color: #d8d8d8;
+  --text-color: #353535;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,6 +12,33 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+[data-theme="light"] {
+  --background: #d8d8d8;
+  --foreground: #353535;
+}
+
+[data-theme="light"] .prose h1,
+[data-theme="light"] .prose h2,
+[data-theme="light"] .prose h3,
+[data-theme="light"] .prose a,
+[data-theme="light"] .prose {
+  color: var(--foreground);
+}
+
+
+[data-theme="dark"] {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+[data-theme="dark"] .prose h1,
+[data-theme="dark"] .prose h2,
+[data-theme="dark"] .prose h3,
+[data-theme="dark"] .prose a,
+[data-theme="dark"] .prose {
+  color: var(--foreground);
 }
 
 body {
