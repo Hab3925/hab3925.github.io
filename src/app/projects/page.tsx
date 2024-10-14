@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: 'Project Valemon',
-    image: '/img/valemon/valemon.jpg',
+    image: '/img/valemon/valemon.JPG',
     link: '/projects/valemon',
     description: 'The successor to Project Bifrost, a bigger and more ambitious bi-liquid rocket, for better of worse.',
   },
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: 'Project Bifrost',
-    image: '/img/bifrost/bifrost.jpg',
+    image: '/img/bifrost/bifrost.JPG',
     link: '/projects/bifrost',
     description: 'My part in building and launching Norways first bi-liquid rocket.',
   },
