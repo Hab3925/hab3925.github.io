@@ -29,7 +29,7 @@ export default function ProjectPage() {
             <p>
               I made the drone in Fusion 360. I had played around trying to 3D model things in the built in 3D model viewer in Windows 10 by adding and subtracting shapes, which is a really bad idea, so figuring out Fusion 360 was a huge upgrade. {' '}
               To start with, the goal was to be able to replicate the original frame of the drone. {' '}
-              The frame was a very simple laser cut design where the motors were "pressfitted" into the arms, the electronics were mounted on a plate in the middle, and the battery was strapped to the bottom with a rubber band. {' '}
+              The frame was a very simple laser cut design where the motors were &#34;pressfitted&#34; into the arms, the electronics were mounted on a plate in the middle, and the battery was strapped to the bottom with a rubber band. {' '}
               This made the design very easy to 3D print and test. {' '}
               I made a lot of mistakes in the beginning, mostly from not understanding how to measure the parts of the drone properly. {' '}
               I did a lot of prototype prints to  get things to fit together, and imported an image of the body into the design to get the shapes right. {' '} 
