@@ -18,6 +18,12 @@ const projects = [
   //   description: 'Robot for the Robowars competition at Omega Verksted in october 2024',
   // },
   {
+    title: 'Portfolio website',
+    image: '/img/portfolio/portfolio.png',
+    link: '/projects/portfolio',
+    description: 'This website, made with Next.js and Tailwind CSS, to showcase my projects and skills.',
+  },
+  {
     title: 'Project Valemon',
     image: '/img/valemon/valemon.JPG',
     link: '/projects/valemon',
