@@ -5,12 +5,18 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 const projects = [
-  { 
-    title: 'Project 2025',
-    image: '/img/2025/2025.jpg',
-    link: '/projects/2025',
-    description: 'Propulse\'s newest bi-liquid rocket project where i am the Cheif Technical Officer.',
-  },
+  // { 
+  //   title: 'Project 2025',
+  //   image: '/img/2025/2025.jpg',
+  //   link: '/projects/2025',
+  //   description: 'Propulse\'s newest bi-liquid rocket project where i am the Cheif Technical Officer.',
+  // },
+  // { 
+  //   title: 'Robowars robot',
+  //   image: '/img/2025/2025.jpg',
+  //   link: '/projects/2025',
+  //   description: 'Robot for the Robowars competition at Omega Verksted in october 2024',
+  // },
   {
     title: 'Project Valemon',
     image: '/img/valemon/valemon.JPG',

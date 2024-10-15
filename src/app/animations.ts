@@ -82,9 +82,14 @@ export const launchRocket = () => {
     const randomBallEmoji = ballEmojis[Math.floor(Math.random() * ballEmojis.length)];
   
     const ball = document.createElement('div');
+
+    // Generate a random starting position between 10% and 90% of the screen width
+    const minStartX = window.innerWidth * 0.1;
+    const maxStartX = window.innerWidth * 0.9 - 50;
+    const randomStartX = Math.random() * (maxStartX - minStartX) + minStartX;
     ball.textContent = randomBallEmoji;
     ball.style.position = 'fixed';
-    ball.style.left = '10%';
+    ball.style.left = `${randomStartX}px`;
     ball.style.top = '0';
     ball.style.fontSize = '2rem';
     ball.classList.add('animated-emoji');
@@ -100,9 +105,9 @@ export const launchRocket = () => {
     const maxBounces = 6;
     const floorHeight = window.innerHeight - 50;
   
-    let positionX = window.innerWidth * 0.1;
-    let velocityX = 6;
-  
+    let positionX = randomStartX;
+    let velocityX = Math.random() * 12 - 6;
+      
     const animateBall = () => {
       velocityY += gravity;
       positionY += velocityY;
@@ -135,7 +140,7 @@ export const launchRocket = () => {
   export const stackBooks = () => {
     const bookEmojis = ['📚', '📖', '📓', '📕', '📗', '📘', '📙'];
     const numBooks = 5; // Number of books to spawn per click
-    const maxBooks = 150; // Maximum number of books allowed on the screen
+    const maxBooks = 100; // Maximum number of books allowed on the screen
     const footer = document.querySelector('footer');
 
     const existingBooks = document.querySelectorAll('.book');

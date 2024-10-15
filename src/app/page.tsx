@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { launchRocket, bounceBall, stackBooks, tinkerGears} from './animations';
 import Skills from './../components/skills';
 
@@ -11,7 +12,7 @@ export default function Home() {
   const [title, setTitle] = useState("student");
 
   useEffect(() => {
-    const birthDate = new Date('2002-10-23');
+    const birthDate = new Date('2002-10-23T02:15:01');
     const titles = ["rocket scientist", "physicist", "tinkerer", "student"];
     let titleIndex = 0;
 
@@ -54,7 +55,7 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-2 pb-8 gap-4 sm:p-16 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center">
-        <img src="/img/Abel_pfp.jpg" alt="Abel Gangeskar Horneland" className="w-72 h-72 rounded-full object-cover" />
+      <Image src="/img/Abel_pfp.jpg" alt="Abel Gangeskar Horneland" width={288} height={288} className="rounded-full object-cover" />
         <h1 className="text-7xl font-bold text-center">
           Abel Gangeskar Horneland
         </h1>
