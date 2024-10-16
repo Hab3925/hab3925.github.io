@@ -117,7 +117,7 @@ export default function ProjectsGallery() {
                   <div className="absolute inset-0 bg-black opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
                 </div>
                 <h2 className="mt-4 text-xl font-semibold group-hover:text-blue-600 transition-colors duration-300">{project.title}</h2>
-                <p className="text-gray-600 mt-2">{project.description}</p>
+                <p className="text-gray-500 mt-2">{project.description}</p>
             </Link>
           ))}
         </div>

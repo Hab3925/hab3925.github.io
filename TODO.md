@@ -1,8 +1,7 @@
 * **Experienced with should give overview of relevant projects**
 * **Fix Pong! build.** 
-    * grr
-* Make ball from 'physics' spawn at random place :check:
-* Make age count toward birth time (not just date) :check:
+* Make ball from 'physics' spawn at random place ✅
+* Make age count toward birth time (not just date) ✅
 * *Add pictures to About me page*
 * Write about drone project 
     * Need to collect photos
@@ -19,7 +18,7 @@
     * Possible to write latex for this? 
     * Embedded code block? 
 * *Write about sound controlled lights*
-    * Link to final report PDF somewhere
+    * Link to final report PDF somewhere ✅
     * Pretty straight forward stuff most likley
 * ***Write about Bifrost***
     * How do i even start on this?
@@ -28,7 +27,7 @@
     * Pretty much same as Bifrost except i did more on Valemon i think
 * **Write about bachelor thesis**
     * Latex
-    * Link to PDF
+    * Link to PDF ✅
     * How much should i write about it? 
         * Explain models briefly
         * Explain implementation 
