@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import 'katex/dist/katex.min.css'; // Importing KaTeX CSS
 import "./globals.css";
 import Navbar from "../components/navbar"; // Importing Navbar
 

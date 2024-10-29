@@ -11,12 +11,12 @@ const projects = [
   //   link: '/projects/2025',
   //   description: 'Propulse\'s newest bi-liquid rocket project where i am the Cheif Technical Officer.',
   // },
-  // { 
-  //   title: 'Robowars robot',
-  //   image: '/img/2025/2025.jpg',
-  //   link: '/projects/2025',
-  //   description: 'Robot for the Robowars competition at Omega Verksted in october 2024',
-  // },
+  { 
+    title: 'Robowars autumn 2024',
+    image: '/img/2025/2025.jpg',
+    link: '/projects/robowars-24',
+    description: 'Robot for the Robowars competition at Omega Verksted in october 2024',
+  },
   {
     title: 'Portfolio website',
     image: '/img/portfolio/portfolio.png',

@@ -19,7 +19,7 @@ export default function Skills() {
       <h2 className="text-3xl font-bold text-center mb-4">Experienced with</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
         {skills.map((skill) => (
-          <div key={skill.name} className="flex flex-col items-center justify-center p-4 bg-gray-800 rounded-lg shadow-md hover:scale-105 transition-transform ease-in-out duration-300">
+          <div key={skill.name} className="flex flex-col items-center justify-center p-4 bg-gray-800 rounded-lg shadow-md">
             <div className="w-12 h-12 mb-2 flex items-center justify-center relative">
               <Image
                 src={skill.icon}

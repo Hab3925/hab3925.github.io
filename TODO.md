@@ -1,4 +1,5 @@
-* **Experienced with should give overview of relevant projects**
+* **Experienced with should give overview of relevant projects** ✅
+    * Removed hover effect instead lol 
 * **Fix Pong! build.** 
 * Make ball from 'physics' spawn at random place ✅
 * Make age count toward birth time (not just date) ✅
@@ -15,7 +16,7 @@
     * Try to make a WebGL build?
     * Should be relativley similar to pong in scope
 * **Write about Ocean Game**
-    * Possible to write latex for this? 
+    * Possible to write latex for this? ✅
     * Embedded code block? 
 * *Write about sound controlled lights*
     * Link to final report PDF somewhere ✅
@@ -26,7 +27,7 @@
 * ***Write about Valemon***
     * Pretty much same as Bifrost except i did more on Valemon i think
 * **Write about bachelor thesis**
-    * Latex
+    * Latex ✅
     * Link to PDF ✅
     * How much should i write about it? 
         * Explain models briefly
@@ -35,5 +36,5 @@
         * Show results
 * ***Write about P25***
     * Maybe keep this on the backburner, take some notes until the project is finished.
-* **Write about robowars**
-    * Will write when we start making it
+* **Write about robowars** ✅
+    * Will write when we start making it ✅
