@@ -65,13 +65,13 @@ export default function ProjectPage() {
             <h3>Design of the weapon</h3>
             <p>
                 I started by researching the snail CAM mechanism, and found <a href="https://runamok.tech/AskAaron/snail_cam.html">this</a> very usefull page on designing snail CAMs for this exact purpose by Ask Aaron. {' '}
-                The page recommened using a parabolic spiral, or <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> for the shape of the CAM modified to have a flat region at the small end of the spiral to provide a suitable landing area for the flipping arm. {' '}
-                The formula for a Fermat's spiral in polar coordinates is given by:
+                The page recommened using a parabolic spiral, or <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat&#39;s spiral</a> for the shape of the CAM modified to have a flat region at the small end of the spiral to provide a suitable landing area for the flipping arm. {' '}
+                The formula for a Fermat&#39;s spiral in polar coordinates is given by:
                 <Formula formula={"r=\\pm k \\theta"} block/>
                 where <Formula formula={"k"}/> is a constant that determines the rate of spiral growth. {' '}
                 To get a minimum radius of the CAM you can simply add it to this formula to get:
                 <Formula formula={"r= k \\theta + r_{min}"} block/>
-                Aaron has an unexplained formula for calculating the "rate" based on the minimum and maximum force applied to the snail CAM, which he then uses to calculate the growth <Formula formula={"k"}/> of the spiral. {' '}
+                Aaron has an unexplained formula for calculating the &#34;rate&#34; based on the minimum and maximum force applied to the snail CAM, which he then uses to calculate the growth <Formula formula={"k"}/> of the spiral. {' '}
                 The formula for the rate is:
                 <Formula formula={"\\gamma=-0.1954 \\cdot \\left(\\frac{F_{min}}{F_{max}}\\right)^2 + 0.6945 \\cdot \\left(\\frac{F_{min}}{F_{max}}\\right) + 0.5"} block />
                 which simplifies to <Formula formula={"\\gamma=0.5"}/> when <Formula formula={"F_{min}=0"}/>. This is then used to find <Formula formula={"k"} /> using:
@@ -82,7 +82,7 @@ export default function ProjectPage() {
             <div className='flex justify-center items-center'>
               <Image src="/img/robowars-24/prototype sketch.png" alt="Prototype snail sketch" width={500} height={500} />
             </div>
-            <p className="text-center text-sm text-gray-500">Figure 1: Sketch of the prototype snail CAM using random parameters to test the method. This was made by converting the Fermat's spiral to cartesian coordinates and manually plotting each points x and y coordinate.</p>
+            <p className="text-center text-sm text-gray-500">Figure 1: Sketch of the prototype snail CAM using random parameters to test the method. This was made by converting the Fermat&#39;s spiral to cartesian coordinates and manually plotting each points x and y coordinate.</p>
           
             <p>
               From this, i could find the dimensions of the snail CAM. I only needed to find the minimum and maximum force applied to the snail CAM. {' '}
@@ -103,7 +103,7 @@ export default function ProjectPage() {
               With the length of both arms being equal, the force from the spring needed to be the same as the required arm force <Formula formula="F_{spring}=F_{arm}"/>. {' '}
               When it came to the force on the snail CAM, this was a bit more tricky. 
               I vastley overcomplicated the problem at first, by calculating an effective arm length of the arm to the snail CAM and the calculating the force on this arm by calculating the torque applied by the spring. {' '}
-              I later relized that this is not how lever arms work, and that i could simplify everything a lot by taking inspiration from how Jännä's arm interfaced with the snail. {' '} 
+              I later relized that this is not how lever arms work, and that i could simplify everything a lot by taking inspiration from how Jännä&#39;s arm interfaced with the snail. {' '} 
               The arm of Jännä used two parts, a machined alu part for the flipper arm, and some sort of steel looking rod for the spring arm offseting the two arms from the same plane. {' '}
               This let the snail interface with the alu part without interfacing with the spring arm, which essentially puts it inline with the lever arm. {' '}
               This setup is much cleaner than the one I was planning where the flipper arm and spring arm were in the same plane, and you got another arm to interface with the snail. {' '}
@@ -136,7 +136,7 @@ export default function ProjectPage() {
             <div className='flex justify-center items-center'>
               <Image src="/img/robowars-24/final snail sketch.png" alt="Final snail sketch" width={500} height={500} />
             </div>
-            <p className="text-center text-sm text-gray-500">Figure x: Final Fermat's spiral shape for the snail CAM using the calculated values, this time manually plotted in polar coordinates which cut the number of operations in half.</p>
+            <p className="text-center text-sm text-gray-500">Figure x: Final Fermat&#39;s spiral shape for the snail CAM using the calculated values, this time manually plotted in polar coordinates which cut the number of operations in half.</p>
 
             <p>
               Since i became sick, one of my friends on the team did the final CAD of the arm based on my sketches. {' '}
