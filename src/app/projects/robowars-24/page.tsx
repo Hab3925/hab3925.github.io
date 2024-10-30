@@ -159,7 +159,7 @@ export default function ProjectPage() {
             <p className="text-center text-sm text-gray-500">Figure x: Final design of the weapon arm. The arm was split into two parts for easier machining, and the snail CAM was designed to be able to be mounted on the arm.</p>
 
             <p>
-              The arm was secured between two carbon fiber plates, with a rod passing through ball bearings at the arm's fulcrum. {' '}
+              The arm was secured between two carbon fiber plates, with a rod passing through ball bearings at the arm&#39;s fulcrum. {' '}
               Initially, the snail cam was press-fitted onto the motor&#39;s shaft, but due to concerns about the plastic deforming, we modified the cam to include a set screw with a heated insert for a more secure clamping onto the shaft. {' '}
               The design allowed for the possibility of fitting both the strong and weak springs simultaneously, if needed. {' '}
               The remaining brackets, designed for 3D printing, were bolted to the carbon fiber plates to hold everything in place. {' '}
