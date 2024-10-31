@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 export default function ProjectPage() {
@@ -22,6 +23,9 @@ export default function ProjectPage() {
           <p>
             Where do i even start...
           </p>
+          <Link href="/documents/Project Bifrost - Main Report.pdf" target="_blank" rel="noopener noreferrer" >
+            Read the technical report here
+          </Link>
         </div>
       </div>
     </div>
