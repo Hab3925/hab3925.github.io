@@ -13,7 +13,7 @@ const projects = [
   // },
   { 
     title: 'Robowars autumn 2024',
-    image: '/img/2025/2025.jpg',
+    image: '/img/robowars-24/final design.png',
     link: '/projects/robowars-24',
     description: 'Robot for the Robowars competition at Omega Verksted in october 2024',
   },

@@ -50,7 +50,7 @@ export default function ProjectPage() {
               I managed to dig up the files and build the game and embed it below :) The game has two players, player 1 is controlled with &#34;W&#34; and &#34;S&#34; while player 2 is controlled with the up and down keys. First to 10 points wins! {' '}
               I recommend playing against someone competietive 🏓
             </p>
-            <p>(It probably doesn&#39;t work on mobile, but it was enough work making it work on PC so sorry about that)</p>
+            <p>(The build is currently broken, sorry about that)</p>
           
             <div className="flex justify-center items-center h-screen overflow-hidden">
               <div className="relative w-full max-w-3xl" style={{ paddingTop: '56.25%' }}>

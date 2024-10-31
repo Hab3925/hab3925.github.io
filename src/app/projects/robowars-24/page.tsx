@@ -146,7 +146,7 @@ export default function ProjectPage() {
             <div className='flex justify-center items-center'>
               <Image src="/img/robowars-24/final snail sketch.png" alt="Final snail sketch" width={500} height={500} />
             </div>
-            <p className="text-center text-sm text-gray-500">Figure x: Final Fermat&#39;s spiral shape for the snail CAM using the calculated values, this time manually plotted in polar coordinates which cut the number of operations in half.</p>
+            <p className="text-center text-sm text-gray-500">Figure 5: Final Fermat&#39;s spiral shape for the snail CAM using the calculated values, this time manually plotted in polar coordinates which cut the number of operations in half.</p>
 
             <p>
               Since i became sick, one of my friends on the team did the final CAD of the arm based on my sketches. {' '}
@@ -156,7 +156,7 @@ export default function ProjectPage() {
             <div className='flex justify-center items-center'>
               <Image src="/img/robowars-24/final arm design.png" alt="Final arm design" width={500} height={500} />
             </div>
-            <p className="text-center text-sm text-gray-500">Figure x: Final design of the weapon arm. The arm was split into two parts for easier machining, and the snail CAM was designed to be able to be mounted on the arm.</p>
+            <p className="text-center text-sm text-gray-500">Figure 6: Final design of the weapon arm. The arm was split into two parts for easier machining, and the snail CAM was designed to be able to be mounted on the arm.</p>
 
             <p>
               The arm was secured between two carbon fiber plates, with a rod passing through ball bearings at the arm&#39;s fulcrum. {' '}
@@ -169,7 +169,7 @@ export default function ProjectPage() {
             <div className='flex justify-center items-center'>
               <Image src="/img/robowars-24/weapon assembly.png" alt="Final arm design" width={500} height={500} />
             </div>
-            <p className="text-center text-sm text-gray-500">Figure x: Final weapon arm assembly.</p>
+            <p className="text-center text-sm text-gray-500">Figure 7: Final weapon arm assembly.</p>
 
             <h2>Design and production of the rest of the bot</h2>
             <p>
@@ -181,7 +181,7 @@ export default function ProjectPage() {
             <div className='flex justify-center items-center'>
               <Image src="/img/robowars-24/final design.png" alt="Final robot design" width={500} height={500} />
             </div>
-            <p className="text-center text-sm text-gray-500">Figure x: Final design of the robot.</p>
+            <p className="text-center text-sm text-gray-500">Figure 8: Final design of the robot.</p>
 
             <p>
               The electronics of the robot had been assembed and tested before the final design of the robot was made, so we already had working electronics and software for the robot. {' '}
@@ -203,7 +203,7 @@ export default function ProjectPage() {
             {/* <div className='flex justify-center items-center'>
               <Image src="/img/robowars-24/final assembly.png" alt="Final robot design" width={500} height={500} />
             </div> */}
-            <p className="text-center text-sm text-gray-500">Figure x: The robot fully assembled, ready to fight!</p>
+            <p className="text-center text-sm text-gray-500">Figure 9: The robot fully assembled, ready to fight!</p>
 
             <h2>The competition</h2>
             <p>
