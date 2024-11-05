@@ -13,7 +13,7 @@ const projects = [
   // },
   { 
     title: 'Project Floppen',
-    image: '/img/robowars-24/final design.png',
+    image: '/img/floppen/final design.png',
     link: '/projects/floppen',
     description: 'Robot for the Robowars competition at Omega Verksted in october 2024',
   },
