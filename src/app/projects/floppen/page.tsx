@@ -14,7 +14,7 @@ export default function ProjectPage() {
   return (
     <div className={`min-h-screen ${loaded ? 'opacity-100' : 'opacity-0'} transition-opacity duration-700`}>
       <div className="max-w-4xl mx-auto p-8">
-        <h1 className="text-5xl font-bold mb-2">Robowars autumn 2024</h1>
+        <h1 className="text-5xl font-bold mb-2">Project Floppen</h1>
         <h2 className="text-2xl font-light mb-8">Worked on: October 2024</h2>
         <div className="relative w-full h-80 rounded-lg overflow-hidden mb-8">
           <Image src="/img/bruh.jpg" alt="Robowars" fill style={{ objectFit: 'contain' }} />
@@ -88,7 +88,7 @@ export default function ProjectPage() {
               I never really understood how this consant was derived, the growth formula looks empirical to me. I still used it for the dimensions of the snail CAM as Aaron seemed like they knew what was up. {' '}
             </p>
             <div className='flex justify-center items-center'>
-              <Image src="/img/robowars-24/prototype sketch.png" alt="Prototype snail sketch" width={500} height={500} />
+              <Image src="/img/floppen/prototype sketch.png" alt="Prototype snail sketch" width={500} height={500} />
             </div>
             <p className="text-center text-sm text-gray-500">Figure 1: Sketch of the prototype snail CAM using random parameters to test the method. This was made by converting the Fermat&#39;s spiral to cartesian coordinates and manually plotting each points x and y coordinate.</p>
           
@@ -144,7 +144,7 @@ export default function ProjectPage() {
               I gave it a minimum radius of 5 mm, and calculated 36 points of the spiral, one for every 10 degrees, which I then manually plotted into Fusion 360 to create the shape of the CAM. {' '}
             </p>
             <div className='flex justify-center items-center'>
-              <Image src="/img/robowars-24/final snail sketch.png" alt="Final snail sketch" width={500} height={500} />
+              <Image src="/img/floppen/final snail sketch.png" alt="Final snail sketch" width={500} height={500} />
             </div>
             <p className="text-center text-sm text-gray-500">Figure 5: Final Fermat&#39;s spiral shape for the snail CAM using the calculated values, this time manually plotted in polar coordinates which cut the number of operations in half.</p>
 
@@ -154,7 +154,7 @@ export default function ProjectPage() {
               The final design of the weapon looked like this:
             </p>
             <div className='flex justify-center items-center'>
-              <Image src="/img/robowars-24/final arm design.png" alt="Final arm design" width={500} height={500} />
+              <Image src="/img/floppen/final arm design.png" alt="Final arm design" width={500} height={500} />
             </div>
             <p className="text-center text-sm text-gray-500">Figure 6: Final design of the weapon arm. The arm was split into two parts for easier machining, and the snail CAM was designed to be able to be mounted on the arm.</p>
 
@@ -167,7 +167,7 @@ export default function ProjectPage() {
             </p>
 
             <div className='flex justify-center items-center'>
-              <Image src="/img/robowars-24/weapon assembly.png" alt="Final arm design" width={500} height={500} />
+              <Image src="/img/floppen/weapon assembly.png" alt="Final arm design" width={500} height={500} />
             </div>
             <p className="text-center text-sm text-gray-500">Figure 7: Final weapon arm assembly.</p>
 
@@ -179,7 +179,7 @@ export default function ProjectPage() {
               The design of the robot looked like this:
             </p>
             <div className='flex justify-center items-center'>
-              <Image src="/img/robowars-24/final design.png" alt="Final robot design" width={500} height={500} />
+              <Image src="/img/floppen/final design.png" alt="Final robot design" width={500} height={500} />
             </div>
             <p className="text-center text-sm text-gray-500">Figure 8: Final design of the robot.</p>
 
@@ -201,7 +201,7 @@ export default function ProjectPage() {
             </p>
 
             {/* <div className='flex justify-center items-center'>
-              <Image src="/img/robowars-24/final assembly.png" alt="Final robot design" width={500} height={500} />
+              <Image src="/img/floppen/final assembly.png" alt="Final robot design" width={500} height={500} />
             </div> */}
             <p className="text-center text-sm text-gray-500">Figure 9: The robot fully assembled, ready to fight!</p>
 
@@ -226,7 +226,7 @@ export default function ProjectPage() {
                 className="w-full h-auto rounded-lg shadow-lg"
                 controls
               >
-                <source src="/img/robowars-24/battle.mp4" type="video/mp4" />
+                <source src="/img/floppen/battle.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
