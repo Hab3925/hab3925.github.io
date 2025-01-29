@@ -12,7 +12,7 @@ export default function ProjectPage() {
 
   return (
     <div className={`min-h-screen ${loaded ? 'opacity-100' : 'opacity-0'} transition-opacity duration-700`}>
-      <div className="max-w-4xl mx-auto p-8">
+      <div className=" mx-auto p-8">
         <h1 className="text-5xl font-bold mb-2">Pong!</h1>
         <h2 className="text-2xl font-light mb-8">Worked on: December 2019</h2>
         <div className="relative w-full h-80 rounded-lg overflow-hidden mb-8">
@@ -53,7 +53,7 @@ export default function ProjectPage() {
             <p>(The build is currently broken, sorry about that)</p>
           
             <div className="flex justify-center items-center h-screen overflow-hidden">
-              <div className="relative w-full max-w-3xl" style={{ paddingTop: '56.25%' }}>
+              <div className="relative w-full" style={{ paddingTop: '56.25%' }}>
                 {/* 16:9 Aspect Ratio (56.25%) */}
                 <iframe
                   src="/pong/index.html"
