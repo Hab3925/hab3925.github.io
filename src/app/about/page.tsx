@@ -35,7 +35,7 @@ const AboutMe = () => {
         <br />
         <p>
           When I&#39;m not busy trying to learn new things, I enjoy playing video games, sailing, reading books, and building legos. {' '}
-          Currently, I am playing <span className='font-bold italic'>Baldurs Gate 3</span>, and reading <span className="font-bold italic">Lord of the Rings</span>. {' '}
+          Currently, I am playing <span className='font-bold italic'>Sea of Thieves</span>, and reading <span className="font-bold italic">Lord of the Rings</span>. {' '}
           My proudest lego build is the <span className="font-bold italic">Titanic</span> set, but the lego cities I used to have in my room still hold a special place in my heart. {' '}
           I own a Laser dinghy that I haven&#39;t sailed in a while, but I hope to get back on the water soon. {' '}
         </p>
